@@ -10,9 +10,9 @@
 
 # Start Scripts
 
-(Hold E) Run the command: python hold_e_loop.py
-(AFK) Run the command: python afk.py
-(Piano) Run the command: python player.py super_mario
+- (Hold E) Run the command: python hold_e_loop.py
+- (AFK) Run the command: python afk.py
+- (Piano) Run the command: python player.py super_mario
 
 # INFORMATION
 
