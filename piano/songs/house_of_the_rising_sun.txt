@@ -1,0 +1,78 @@
+[680e]||\
+[W39r]||\
+[680wr]|||\
+6 tup [tups] p 7\
+[18] tuo [tuos] o [30]\
+[29] yIp [Iypd] p 4\
+4 tip [tips] p 5\
+6 tup [tups] p 3\
+3 yuO [Oyua] O 3\
+6 tup [tups] p 3\
+3 yuO [Oyua] O u\
+[6ep] 636 8 6 [3ra]\
+[1ts] 158 0 8 [5uf]\
+[2yd] [2ep]6[9ep] [Qep] 9 6\
+[4ep] 468 q 8 [6pj]\
+[6pj] 636 8 6 [3pj]\
+[1oh] 158 0 8 [5uf]\
+[3ig][uf][ig][uf]370 W 0 [7uf]\
+[3ig][uf][ig][uf]379 W 9 [7pj][pj]\
+[6pj] 636 8 6 [3ra]\
+[1ts] 158 0 8 [5uf]\
+[2yd] 269 Q 9 [6ep]\
+[4ep] 468 q 8 [6ep]\
+[6ep] [6ep]3[6ep] [8ep] 6 [3ep]\
+[3WO] [30u]79 W 9 [7WO]\
+6 tup [6tups] p 7\
+[18] tuo [18tuos] o [30]\
+[29] yIp [I29ypd] p 4\
+4 tip [4tips] p 5\
+6 tup [6tups] p 3\
+3 yuO [O3yua] O 3\
+6 tup [6tups] p 3\
+3 yuO [Oyua] O u\
+[6ep] 636 [8ep] 6 [3ra]\
+[1ts] [1ts]58 [0ts] 8 [5uf]\
+[2yd] [2ep]6[9ep] [Qep] 9 [6ep]\
+[4ep] 468 q 8 [6pj]\
+[6pj] [6pj]3[6pj] [8pj] 6 [3pj]\
+[1oh] [1oh]5[8oh] [0oh] 8 [5uf]\
+[3ig][uf][ig][uf]370 W 0 7\
+3 379 W 9 [7pj][pj]\
+[6pj] 636 [8pj] 6 [3ra]\
+[1ts] 158 [0ts] 8 [5uf]\
+[2yd] [2ep]69 [Qep] 9 [6ep]\
+[4ep] 468 [qep] 8 [6ep]\
+[6ep] [6ep]3[6ep] [8ep] 6 [3ep]\
+[3WO] [30u]79 W 0 [7WO]\
+6 tup [6tups] p 7\
+[18] tuo [18tuos] o [30]\
+[29] yIp [I29ypd] p 4\
+4 tip [4tips] p 5\
+6 tup [6tups] p 3\
+3 yuO [O3yua] O 3\
+6 tup [6tups] p 3\
+3 yuO [Oyua] O u\
+[680ep]||a\
+[80wts]||f\
+[Q9eyd] p p||\
+[8qet]||p\
+[680ep]||p\
+[80wto]||u\
+[W70ru]||\
+[790r]||p\
+[680ep]||a\
+[80wts]||f\
+[Q9eyd] p p p|\
+[8qet]||p\
+[680ep]||p\
+[790rO] u||O\
+6 tup [tups] p 7\
+[18] tuo [tuos] o [30]\
+[29] yIp [Iypd] p 4\
+4 tip [tips] p 5\
+6 tup [tups] p 3\
+3 yuO [Oyua] O 3\
+6 tup [tups] p 3\
+3 yuO [Oyua] O u\
+[6etup]

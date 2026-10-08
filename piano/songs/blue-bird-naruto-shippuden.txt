@@ -1,0 +1,49 @@
+u p a 
+[4s] 8 q-[5a] 9 w p 
+6 0 e 0-u p a 
+[4s] 8 q-[5d] 9 [ws] d 
+6 [0f] e - u p a 
+[4s] 8 q-[5a] 9 w p 
+6 0 e 0-p [4f] [4d]-
+p [5f] [5d]-o-[6o] 
+0 [ep] p-xzlkjhg 
+[4x] 8 [qx] [ex] [5z] 9 w [rz] 
+6 [0l] [ek] [tl] e-[4l] 8 
+[qk] [ej] [5j] 9 [wf] [rj] [6j] 0 
+e [WH]-0-0 - 
+u p a 
+[4s] [8u] [4s] [8a] 5 [9p] [5o] [9p] 
+6 [0t] [6y] [0p] 6 [0u] [6u] [0u] 
+[4i] [8o] [4p] [8a] 5 [9o] [5o] [9o] 
+[6p] [0a] [6s] [0a] 6 [0u] [6p] [0a] 
+[4s] [8u] [4s] [8a] 5 [9p] [5o] [9p] 
+6 [0t] [ey] [0p] 6 [0u] [eu] [0u] 
+[4i]-f-[5d] s a a 
+6 p p - [4p] p a 
+[4s] q 4 q 5 w [5s] w 
+[6a] [es] 6 [ea] 6 [ea] [6a] [es] 
+[4d] q 4 q 5 w [5d] w 
+[6s] [ea] 6 [ep] 6 [ep] [6a] [es] 
+[4f]-[8p] a 5 s 9 f 
+6-[0f] h 6 g 0 f 
+4-5-6 u p a 
+[4s]-8 q [5a]-9 [wp] 
+6-0 e 6 u [0p] [ea] 
+[4s]-8 q [5d]-[9s] [wd] 
+6 f 0 e 6 u [0p] [ea] 
+[4s]-8 q [5a]-9 [wp] 
+6-0 e 6 p [0f] [ed] 
+4 p [8f] [qd] 5 o 9 [wo] 
+6 p [0p] e 6 [0u] [ep] [ta] 
+[4s] 8 q 8 [5a] 9 w [9p] 
+6 0 e 0 6 [0u] [ep] [0a] 
+[4s] 8 q 8 [5d] 9 [ws] [9d] 
+6 [0f] e 0 6 [0u] [ep] [0a] 
+[4s] 8 q 8 [5a] 9 w [9p] 
+6 0 e 0 6 [0p] [ef] [0d] 
+4 [8p] [qf] d 5 [9o] w o 
+6 [0p] [ep]---p 
+[4f] d-p [5f] d-
+o 
+6 
+o-p p
