@@ -11,25 +11,29 @@ keyboard = Controller()
 TARGET_WINDOW = "Roblox"
 stop_script = False
 
+
 WHITE_KEYS = set("1234567890qwertyuiopasdfghjklzxcvbnm")
 
 SHIFT_SYMBOLS = {
     "!": "1",
     "@": "2",
-    "#": "3",  
+    "#": "3",
     "$": "4",
     "%": "5",
     "^": "6",
-    "&": "7",  
+    "&": "7",
     "*": "8",
     "(": "9",
-    ")": "0",  
+    ")": "0",
     "?": "/",
 }
 
+
 BLACK_LETTER_KEYS = set("QWET YIOPS DGHJLZCVB".replace(" ", ""))
 
-DEFAULT_SUBDIVISION = 2.0 
+
+DEFAULT_SUBDIVISION = 2.0
+
 
 KEY_HOLD_RATIO = 0.18
 MIN_KEY_HOLD = 0.012
@@ -51,12 +55,13 @@ def normalize_song(song: str) -> str:
         "\u2012",
         "\u2013",
         "\u2014",
-        "\u2015", 
-        "\u2212", 
+        "\u2015",
+        "\u2212",
     )
 
     for dash in dash_chars:
         song = song.replace(dash, "-")
+
 
     return song.replace("\t", " ")
 
@@ -165,8 +170,10 @@ def play_chord(keys: str, note_delay: float, chord_delay: float):
 
     start = time.perf_counter()
 
+
     for base in normal_keys:
         safe_press(base)
+
 
     if shifted_keys:
         safe_press(Key.shift)
@@ -179,14 +186,17 @@ def play_chord(keys: str, note_delay: float, chord_delay: float):
     if hold_time > 0:
         time.sleep(hold_time)
 
+
     for base in reversed(shifted_keys):
         safe_release(base)
 
     if shifted_keys:
         safe_release(Key.shift)
 
+
     for base in reversed(normal_keys):
         safe_release(base)
+
 
     elapsed = time.perf_counter() - start
     remaining = note_delay - elapsed
@@ -207,6 +217,7 @@ def play_fast_sequence(keys: str, note_delay: float):
     for k in valid:
         if stop_script:
             break
+
 
         hold = min(0.022, per_note * 0.45)
         shifted = key_needs_shift(k)
@@ -232,6 +243,59 @@ def play_fast_sequence(keys: str, note_delay: float):
             time.sleep(rest)
 
 
+def count_song_steps(song: str) -> int:
+    song = normalize_song(song)
+    i = 0
+    steps = 0
+
+    while i < len(song):
+        ch = song[i]
+
+        if ch == "[":
+            end = song.find("]", i + 1)
+            if end == -1:
+                i += 1
+                continue
+
+            chord = "".join(
+                c for c in song[i + 1:end]
+                if is_piano_key(c)
+            )
+            if chord:
+                steps += 1
+
+            i = end + 1
+            continue
+
+        if ch == "{":
+            end = song.find("}", i + 1)
+            if end == -1:
+                i += 1
+                continue
+
+            seq = "".join(
+                c for c in song[i + 1:end]
+                if is_piano_key(c)
+            )
+            if seq:
+                steps += 1
+
+            i = end + 1
+            continue
+
+        if ch == "-":
+            steps += 1
+            i += 1
+            continue
+
+        if is_piano_key(ch):
+            steps += 1
+
+        i += 1
+
+    return max(steps, 1)
+
+
 def play_song(
     song: str,
     note_delay: float,
@@ -243,8 +307,25 @@ def play_song(
     song = normalize_song(song)
     i = 0
 
+    total_steps = count_song_steps(song)
+    completed_steps = 0
+    next_progress = 10
+
+    print("Fremdrift: 0%")
+
+    def add_progress(amount: int = 1):
+        nonlocal completed_steps, next_progress
+
+        completed_steps += amount
+        percent = min(100, (completed_steps * 100) // total_steps)
+
+        while percent >= next_progress and next_progress <= 100:
+            print(f"Fremdrift: {next_progress}%")
+            next_progress += 10
+
     while i < len(song) and not stop_script:
         ch = song[i]
+
 
         if ch == "[":
             end = song.find("]", i + 1)
@@ -261,9 +342,11 @@ def play_song(
 
             if chord:
                 play_chord(chord, note_delay, chord_delay)
+                add_progress()
 
             i = end + 1
             continue
+
 
         if ch == "{":
             end = song.find("}", i + 1)
@@ -280,9 +363,11 @@ def play_song(
 
             if seq:
                 play_fast_sequence(seq, note_delay)
+                add_progress()
 
             i = end + 1
             continue
+
 
         if ch == "-":
             dash_count = 1
@@ -292,8 +377,10 @@ def play_song(
                 i += 1
 
             time.sleep(pause_per_dash * dash_count)
+            add_progress(dash_count)
             i += 1
             continue
+
 
         if ch.isspace() or ch == "/":
             i += 1
@@ -301,8 +388,16 @@ def play_song(
 
         if is_piano_key(ch):
             play_key(ch, note_delay)
+            add_progress()
+
 
         i += 1
+
+
+    if not stop_script and next_progress <= 100:
+        while next_progress <= 100:
+            print(f"Fremdrift: {next_progress}%")
+            next_progress += 10
 
 
 def on_press(key):
@@ -336,25 +431,6 @@ def list_songs(songs_dir: Path):
 
 
 def load_song_from_json(songs_dir: Path, song_id: str):
-    """
-    Forventet format:
-      {
-        "name": "Titel",
-        "bpm": 123,
-        "song": "..."
-      }
-
-    eller:
-      {
-        "name": "Titel",
-        "tempo": {
-          "NOTE_DELAY": 0.1,
-          "PAUSE_PER_DASH": 0.1,
-          "CHORD_DELAY": 0.07
-        },
-        "song": "..."
-      }
-    """
     path = songs_dir / f"{song_id}.json"
     data = json.loads(path.read_text(encoding="utf-8"))
 
@@ -399,11 +475,6 @@ def load_song_from_json(songs_dir: Path, song_id: str):
 
 
 def load_song_any(songs_dir: Path, song_id: str):
-    """
-    Understøtter:
-      - songs/<id>.json
-      - songs/<id>.txt + songs/<id>.meta.json
-    """
     json_path = songs_dir / f"{song_id}.json"
     txt_path = songs_dir / f"{song_id}.txt"
     meta_path = songs_dir / f"{song_id}.meta.json"
@@ -442,6 +513,7 @@ def load_song_any(songs_dir: Path, song_id: str):
                 float(bpm),
             )
 
+
         note_delay = 0.10
         pause_per_dash = note_delay
         chord_delay = note_delay * 0.72
@@ -467,9 +539,6 @@ def import_txt_to_json(
     name: str,
     bpm: float,
 ):
-    """
-    Importér en rå txt til en JSON-sangfil.
-    """
     if not input_txt.exists():
         raise FileNotFoundError(f"Input fil findes ikke: {input_txt}")
 
@@ -617,6 +686,7 @@ def main():
                     PAUSE_PER_DASH,
                     CHORD_DELAY,
                 )
+
 
                 stop_script = True
             else:
