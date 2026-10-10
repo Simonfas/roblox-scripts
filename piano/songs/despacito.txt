@@ -1,0 +1,93 @@
+[ar] Iy[ar] Iy[ar] Iy[ar] Iy
+[ar] oy[ar] oy[ar] oy[ar] oy
+[ep] Iy[ep] Iy[ep] Iy[ep] Ie
+[pSu]----[ry]
+[aI] I ya I-y-a [ry]
+[ao] o ya o-y-a [ey]
+[Ip] I yp I-y-p [eT]
+[pu]----yIadS
+aPa----[Iy]a S d 
+f G d-G-d-G----
+[dI]--[Su]--
+[7ary]-[7I]-7 [7r]-IdSap
+[57awy]-[5o] u7y[7r]-od[ISy]a[IS]
+[79dIy]-[9p] [eI]7[Iy][7I]y pd[eSu]d[fu]
+[67fp]-6-7 [7d]-S-
+[aIry] [7Q]-Q[7Qr]Tyu[7Q]y Tr[7Q]e 
+w [59w]y-[59wy]-[59w]-[59w] 
+y [6eQ] y [6eQ] y [6eQ] y [6Qu]T-
+[06]-[06]-[06]--
+[7aIry] [7Q]-[$Q][$7Qr][$T][$y][$u][7Q][$y] [$T][$r][7Q][$e] 
+[57aorwy] [59w][5y]-[59wy]-[59w]-[59w] 
+[$7eIpy] [$6eQ] [$y] [$6eQ] [$y] [$6eQ] [$y] [6Qu][6T]
+[7epTu] [06]-[06]-[06]--
+[7rS] JJ[9rS]r[JQr][JT][7Sy]T[Jy][JT][9Sy] T[JQ][Jr]
+[5S] JJ[7rS]r[9Jr][JT][Swy]T[Jy][JT][7Sy] u[9J][eJ]
+[9S] JJ[eQS]e[eJ][eJ][9Sy]e[Jy][eJ][QSy] uJ[Ju]
+[6S]TJJ[*S] [0J]J[6S] JJ[*S] [0J]J
+[17rS] JJ[29rS]r[$JQr][JT][$7Sy]T[Jy][JT][29Sy] T[$JQ][Jr]
+[15S] JJ[7rS]r[29Jr][JT][5Swy]T[Jy][JT][7Sy] u[29J][eJ]
+[129S] JJ[$eQS]e[6eJ][eJ][29Sy]e[Jy][eJ][$QSy] u[6J][Ju]
+[16S]TJJ[!*S] [03J]Jy-T-
+[17aIry] [$IQ][@6][$1Qy][$aQ][@$17Q][$IQ][$17Q][7r][7ry][@67r][17r] [@167ae][7r]
+[15aory][5w]o[@56w][15wy][5aw][@15w][5ow][159r][9r][9ry][69r][1rw] [@015aT][Qy]
+[12eIpy][9e]I[@6e][19ey][9ep][@129e][9eI][12Qy][Qy][Qy][@6Qy][1ey] [@12puy][Tu]
+[16epTu][eT]u[@6][1T]p[@16]u[ey]-[QT]-
+[179aIry] [7IQ][@6][17Qy][7aQ][@17Q][7IQ][179Q][9r][9ry][@69r][1Qr] [@179ae][9r]
+[15aory][7w]o[@67w][17wy][7aw][@157w][7ow][159r][9r][9ry][6rw][1rw] [@15aeT][wy]
+[12eIpy][eQ]I[@6eQ][19ey][9ep][@129e][9eI][12Qy][Qy][Qy][@6Qy][1ey] [@12puy][Tu]
+[16epTu][eT]u[@6][1T]p[@16]u[16y] T6[1T] [@16] 
+[17aIQy][0u][IQ][@06u][1IQy]a[@017u][IQ][17][0u]y[@6IQ]1[ow][@17a][ow]
+[15aory][9y]o[@6p]1y[@15][oy][15][oy][oy][6oy]1[oy][@15apy][oy]
+[12eIpy][Iy]I[@6p]1y[@12][Iy][12][Iy] [@6Ip][1ou] [@12Ipy][eu]
+[16epTu] u[@6p][1u][Tu][@16u][u][16u]u[Tu][6u][1T] [@16py] 
+[17aIQy][0u][IQ][@06u][1IQy][0au][@17IQ]I[17][0u][IQy][@06u][1IQ] [@17aow][ow]
+[15aory][9y]o[@6p]1y[@15][owy][15][owy][owy][6owy]1[owy][@15aepy][owy]
+[12eIpy][IQy]I[@6p]1y[@12][IQy][12][IQy] [@6eIp][1ouw] [@12IpQy][0eu]
+[16epTu]-[@6]1 [@16] [16]yyyyyyr
+[17y]rr [2r][129y]y[$1Qy]r[$17y]rr [2r][129y]y[$1Qy]r
+[15y]rr [2r][17y]y[129y]r[15wy]rr [2r][17u]u[129u]y
+[129u]uu[2y][$1Qu]I[16ey]y[129y] [12y] uuuy
+[16u]uu[2y][!*1u]I[013y]y[16y] [126y]yyyyr
+[17y]yy[2Ir][129dy]y[$1aQy][dr][$17u]I[ay]2[129y]yy[$1Qy]yy
+[15y]yy[2ay][17ay]y[129Sy][dr][15uw]ay2[17y]y[129y]y
+[129y]II[2I][$1IQ]p[16ey]y[129y] y2[$1y]I[16I]I
+[16u] u [2u][!*1u] [013u]y[16u] [126y]Qy yy
+[17r] r2[129y]y[$1Qy]y[$17r] r[2Q][129y] [$1Qy]y
+[15r] r[2w][17y] [129y]y[15rw] r2[17u]u[129u]y
+[129u] y[2y][$1Qu]u[16eu]y[129u] y[2y][$1y] [16y]y
+[16T] T [2T][!*1T] [013T]r[16y] [126T]Q[Iy] [Iy][IT]
+[7rSy] [Jry]J[9ISy][Iy][IJQy][IJy][7rSy] [Jry][JQ][9ISy] [IJQy][IJy]
+[5rSy] [Jry][Jw][7oSy] [9Joy][Joy][rSwy] [Jry]J[7oSu][ou][9Jou][Joy]
+[9oSu] [IJy][Jy][QSu]u[eJu][Jy][9Su] [Jy][Jy][Sy] [Jy][Jy]
+[6ST] TJ[JT][*ST] [0JT][Jr][6Sy] T r r----
+y-T-
+[17aIry] [$IQ][@6][$1Qy][$aQ][@$17Q][$IQ][$17Q][7r][7ry][@67r][17r] [@167ae][7r]
+[15aory][5w]o[@56w][15wy][5aw][@15w][5ow][159r][9r][9ry][69r][1rw] [@015aT][Qy]
+[12eIpy][9e]I[@6e][19ey][9ep][@129e][9eI][12Qy][Qy][Qy][@6Qy][1ey] [@12puy][Tu]
+[16epTu][eT]u[@6][1T]p[@16]u[ey]-[QT]-
+[179aIry] [7IQ][@6][17Qy][7aQ][@17Q][7IQ][179Q][9r][9ry][@69r][1Qr] [@179ae][9r]
+[15aory][7w]o[@67w][17wy][7aw][@157w][7ow][159r][9r][9ry][6rw][1rw] [@15aeT][wy]
+[12eIpy][eQ]I[@6eQ][19ey][9ep][@129e][9eI][12Qy][Qy][Qy][@6Qy][1ey] [@12puy][Tu]
+[16epTu][eT]u[@6][1T]p[@16]u[16dI]-6[1Su] [@16] 
+[17aIQy][0u][IQ][@06u][1IQy]a[@017u][IQ][17][0u]y[@6IQ]1[ow][@17a][ow]
+[15aory][9y]o[@6][1y]a[@15][oy][15][oy][oy][6oy]1[oy][@15apy][oy]
+[12eIpy][Iy]I[@6][1y]p[@12][Iy][12][Iy] [@6Ip][1ou] [@12Ipy][eu]
+[16epTu] u[@6][1Tu][pu][@16u][u][16u]u[Tu][6u][1T] [@16py] 
+[17aIQy][0u][IQ][@06u][1IQy][0au][@17IQ]I[17][0u][IQy][@06u][1IQ] [@17aow][ow]
+[15aory][9y]o[@6][1y]a[@15][owy][15][owy][owy][6owy]1[owy][@15aepy][owy]
+[12eIpy][IQy]I[@6][1y]p[@12][IQy][12][IQy] [@6eIp][1ouw] [@12IpQy][0eu]
+[16epTu]-[@6]1 [@16] [16y]-T-
+r [7Q] QQ[7Q]QQr[7Qr]rr [7eQ]r 
+w[59w]www[59w]wrr[59rw]rr [59Tw]y 
+[e][6Qr][eT][ey][eu][6eIQ][eo][ep][Iy][6Qy]y[Iy] [6pQu][ou] 
+[Tu][06]-[06]-[06][$Q][9y] [9y][9y]
+[17aIry] [7Ir][@6][19y][9ay][@179y][9Iy][17r] [7ry][@$6Q][19y] [@179ay][*T]
+[157aory] [7or][@56w][19y][9ay][@159y][9oy][157orw][ow][7ry][ow]6[1ow][ow][@15a][ep]
+[12eIopwy] [IQ][@6][1y]p[@12][Iy][12][Iy]y[@6Ip][1ou] [@12Ipy][Tu]
+[16epTu] u[@6][1Tu][pu][@16u][u][16u]u[Tu][$6Qu][19Ty] [@169py][9y]
+[17aIry] [7Ir] [9y][9ay][9y][9Iy][7r] [7ry][$Q][9y] [9ay][*T]
+[7aory] [7or][5w][9y][9ay][9y][9oy][7ory][oy][7ry][oy] [oy][oy]a[py]
+[oy]e[Iry]T[y]uI[Io]p[I] [Ip][o] [I][u]-
+e T e y-T-
+r Q
