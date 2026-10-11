@@ -1,0 +1,76 @@
+[0o] r [ow] r [0o] r [aw] r \
+[8f] w [0f] w [8f] w [0d] w \
+[aw] y [ar] y [aw] y [ar] y \
+[9I] e [IQ] e [9I] e [Qu] e \
+[0rw] h [0huw] f [0huw] f [0hwy] j \
+[0ktw]-[0huw] h [0duw] k [0wy]-\
+[rwy]-[rwy]-[rwy] h [hrwy] h \
+[9eGQ]-[9eQ] G [9eGQ] f [9ehQ]-\
+[0rw] h [0huw] f [0huw] f [0hwy] j \
+[0ktw]-[0huw] h [0duw] k [0wy]-\
+[rwy]-[rwy]-[rwy] h [hrwy] j \
+[9eQ]-[9eQ]-[9eQ] [ak] [9aekQ] [ak] \
+[3ahk] [0w] h [0w] h [0w] k [0w] \
+[8x] [0w] x [0w] x [0kw] [kz] [0kw] \
+[5k] [rw] k [rw] k [rw] k [rw] \
+[9G] [eQ] G [eQ] G [aekQ] [aGk] [aekQ] \
+[5ahk] [rw]-[rw]-[orw]pp [prw]a\
+[9p] [eoQ] o [eQ]-[aekQ] [ak] [aekQ] \
+[5ak] [rw]-[rw]-[orw]oo [orw]p\
+[9I] [eIQ] I [eoQ]-[eQ]-[eQ]-\
+[ak] [ak] [ak] [03afhk]-[ruw]-\
+[ruw]-[fhkruw] o [18u] y [0tw]-\
+[0tw] o [0dtw] d[ao][5aw]-[rwy]-\
+[rwy] o [drwy] d[aI][29a]-[eQy] p \
+[eQy] [ak] [aekQy] [ak] [03afhk]-[ruw]-\
+[ruw] o [orw] us[18]-[0tw]-\
+[0tw]-[0tw] d [5aw] d [arwy] d \
+[arwy] d [arwy] pa[29]-[eQy] u \
+[eQsy]-[aeQy]-[03o]oo [oruw]oo \
+[aruw] ah[hruw]hGG[18f] f [0ftw]ff \
+[0ftw]-[0dtw]-[5aw] a [arwy] a \
+[drwy] s [arwy]po [29I] I [eIQy]I[fu] \
+[efQuy]-[deQy]-[03o]oo [oruw]oo \
+[aruw] ah[hruw]hGG[18f] f [0ftw]ff \
+[0ftw]-[0dtw]-[5aw] a [arwy] a \
+[drwy] s [arwy]po [29I] I [eIQy]I[fu] \
+[efQuy]-[deQy]-[oru] [horu] [horu] [horu] \
+[horu] [foru] [horu][oru][joru][oru][kotu] [otu] [hotu] [hotu] \
+[dotu] [kotu] [otu] [otu] [ory] [ory] [ory] [ory] \
+[ory] [hory] [hory][ory][hory][ory][eGIy] [eIy] [eIy] [eGIy] \
+[eGIy] [efIy] [ehIy] [eIy] [oru] [horu] [horu] [joru] \
+[horu] [foru] [horu][oru][joru][oru][kotu] [otu] [otu] [hotu] \
+[otuz] [otu]k[otu] [otu] [ory] [ory] [ory] [ory] \
+[ory] [hory] [hory][ory][jory][ory][eIy] [eIy] [eIy] [eIy] \
+[eIy] [aeIky] [aeIky] [aeIky] [akruw] [ruw] [ruw] [ruw] \
+[ruw] [ruw] [ruw][ruw][ruw][ruw][tuw] [tuw] [tuw] [tuw] \
+[tuw] [aktuw] [aktuw] [aktuw] [akruw] [ruw] [ruw] [ruw] \
+[ruw] [ruw] [ruw][ruw][ruw][ruw][eQy] [eQy] [eQy] [eQy] \
+[eQy] [eoQy] [deQy] [deQy]a[ruw] [oruw] [druw] [ruw]a\
+[ruw] [oruw] [druw][ruw][druw]p[ruw][tuw] [otuw] [otuw] [atuw] \
+[tuw] [otuw] [dtuw] [dtuw]a[rwy] [rwy] [rwy] [rwy] \
+[rwy] [orwy] [drwy][rwy][drwy]p[rwy][eQy] [eQy] [eQy] [eQy] \
+[eQy] [eQy] [eQy] [eQy] [orwy]o[rwy]p[orwy] [orwy]d\
+[rwy] [orwy]p[orwy][rwy][orwy][rwy][otuw]o[tuw]p[otuw] [otuw]d\
+[tuw] [otuw]p[otuw] [otuw] [eoQy]o[eQy]p[eoQy] [eoQy]d\
+[eQy] [eoQy]p[eoQy] [eoQy]-[ak] [ak] [ak] \
+[03afhk]-[ruw]-[afhruw]-[ruw] o \
+[18u] y [0tw]-[0tw] o [0dtw] d[ao]\
+[5aw]-[rwy]-[rwy] o [drwy] d[aI]\
+[29I]-[eQy] p [eQy] [ak] [aekQy] [ak] \
+[03afhk]-[ruw]-[ruw] o [orw] us\
+[18]-[0tw]-[0tw]-[0tw] d \
+[5aw] d [arwy] d [arwy] d [arwy] pa\
+[29]-[eQy] u [eQsy]-[aeQy]-\
+[03o]oo [oruw]oo [aruw] ah[hruw]hGG\
+[18f] f [0ftw]ff [0ftw]-[0dtw]-\
+[5aw] a [arwy] a [drwy] s [arwy]po \
+[29I] I [eIQy]I[fu] [efQuy]-[deQy]-\
+[03o]oo [oruw]oo [aruw] ah[hruw]hGG\
+[18f] f [0ftw]ff [0ftw]-[0dtw]-\
+[5aw] a [arwy] a [drwy] s [arwy]po \
+[29I] I [eIQy]I[fu] [efQuy]-[deQy]-\
+[0o] r o r o r a r \
+[ft] o f o f o d o \
+[aw] y a y a y a y \
+[9eI]----

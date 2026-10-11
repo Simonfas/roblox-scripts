@@ -1,0 +1,167 @@
+[06e] T u T e T u T \
+e T u T e T u T \
+[%0W] T u T W T u T \
+W T u T W T u T \
+[\*$Q] T I T Q T I T \
+Q T I T Q T I T \
+[269e] y I y e y I y \
+e y I y e y I y \
+[06e] T u T e T u T \
+e T u T e T u T \
+[%0W] T u T W T u T \
+W T u T W T u T \
+[\*$Q] T I T Q T I T \
+Q T I T Q T I T \
+[269e] y I y e y I y \
+e y I y e y I y \
+[06e] T u T e T u T \
+e T u T e T u T \
+[%0W] T u T W T u T \
+W T u T W T u T \
+[\*$Q] T I T Q T I T \
+Q T I T Q T I T \
+[269e] y I y e y I y \
+e y I y e y I y \
+[06e] T u T e T u T \
+e T u T e T u T \
+[%0W] T u T W T u T \
+W T u T W T u T \
+[\*$Q] T I T Q T I T \
+Q T I T Q T I T \
+[269e] y I y e y I y \
+e y I y e y I y \
+[03Q] W u W Q W u W \
+[$Q] e u e Q e u e \
+[29Q] e y e Q e y e \
+Q e y e Q e y e \
+[03Q] W u W Q W u W \
+[$Q] e u e Q e u e \
+[29Q] e I e Q e I e \
+Q W u W Q W u W \
+Q e I e Q e I e \
+[6e] T p T e T p T \
+[3W] r O r W r O r \
+[$e] T I T e T I T \
+[2e] y I y e y I y \
+[6e] T p T e T p T \
+[3W] r O r W r O r \
+[$e] T I T e T I T \
+[2e] y I y e y I y \
+[6e] T p T e T p T \
+[3W] r O r W r O r \
+[$e] T I T e T I T \
+[2e] y I y e y I y \
+[6e] T p T e T p T \
+[3W] r O r W r O r \
+[$e] T I T e T I T \
+[2e] y I y e y I y \
+[6e] T p T e T p T \
+[3W] r O r W r O r \
+[$e] T I T e T I T \
+[2e] y I y e y I y \
+[2e] y I y e y I y \
+[06e] T u T e T u T \
+e T u T e T u T \
+[%0W] T u T W T u T \
+W T u T W T u T \
+[\*$Q] T I T Q T I T \
+Q T I T Q T I T \
+[269e] y I y e y I y \
+e y I y e y I y \
+[06e] T u T e T u T \
+e T u T e T u T \
+[%0W] T u T W T u T \
+W T u T W T u T \
+[\*$Q] T I T Q T I T \
+Q T I T Q T I T \
+[269e] y I y e y I y \
+e y I y e y I y \
+[06e] T u T e T u T \
+e T u T e T u T \
+[%0W] T u T W T u T \
+W T u T W T u T \
+[\*$Q] T I T Q T I T \
+Q T I T Q T I T \
+[269e] y I y e y I y \
+e y I y e y I y \
+[03Q] W u W Q W u W \
+[$Q] e u e Q e u e \
+[29Q] e y e Q e y e \
+Q e y e Q e y e \
+[03Q] W u W Q W u W \
+[$Q] e u e Q e u e \
+[29Q] e I e Q e I e \
+Q W u W Q W u W \
+Q e I e Q e I e \
+Q W O W Q W O W \
+[6e] T p T e T p T \
+[3W] r O r W r O r \
+[$e] T I T e T I T \
+[2e] y I y e y I y \
+[6e] T p T e T p T \
+[3W] r O r W r O r \
+[$e] T I T e T I T \
+[2e] y I y e y I y \
+[6e] T p T e T p T \
+[3W] r O r W r O r \
+[$e] T I T e T I T \
+[2e] y I y e y I y \
+[6e] T p T e T p T \
+[3W] r O r W r O r \
+[$e] T I T e T I T \
+[2e] y I y e y I y \
+[6e] T p T e T p T \
+[3W] r O r W r O r \
+[$e] T I T e T I T \
+[2e] y I y e y I y \
+[3W] r u r W r u r \
+W r u r W r u r \
+[$e] T I T e T I T \
+e T I T e T I T \
+[2e] y p y e y p y \
+e y p y e y p y \
+[7r] y a y r y a y \
+[!\*e] y p y e y p y \
+[29y] I p I y I p I \
+u O a O u O a O \
+[06epTu] \
+[037Oru] \
+[\*$IpQT] \
+[269Ipy] \
+[06epTu] \
+[037Oru] \
+[\*$IpQT] \
+[269Ipy] [269Ipy] \
+[06epu] T [pu] T \
+[037Ou] r [Ou] r \
+[\*$IpQ] T [Ip] T \
+[269Ip] y [Ip] y \
+[06epu] T [pu] T \
+[037Ou] r [Ou] r \
+[\*$IpQ] T [Ip] T \
+[269Ip] y [Ip] y \
+[6e] T p T e T p T \
+[3W] r O r W r O r \
+[$e] T I T e T I T \
+[2e] y I y e y I y \
+[6e] T p T e T p T \
+[3W] r O r W r O r \
+[$e] T I T e T I T \
+[2e] y I y e y I y \
+[6e] T p T e T p T \
+[3W] r O r W r O r \
+[$e] T I T e T I T \
+[2e] y I y e y I y \
+[6e] T p T e T p T \
+[3W] r O r W r O r \
+[$e] T I T e T I T \
+[2e] y I y e y I y \
+[6e] T u T e T u T \
+[3W] r u r W r u r \
+[$Q] e T e Q e T e \
+[2Q] e y e Q e y e \
+W r u r W r u r \
+e T I T e T I T \
+e y I y e y I y \
+e y I y e y I y \
+[36ruW]
