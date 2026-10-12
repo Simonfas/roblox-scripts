@@ -296,6 +296,83 @@ def count_song_steps(song: str) -> int:
     return max(steps, 1)
 
 
+
+def estimate_song_duration(
+    song: str,
+    note_delay: float,
+    pause_per_dash: float,
+) -> float:
+    song = normalize_song(song)
+    i = 0
+    seconds = 0.0
+
+    while i < len(song):
+        ch = song[i]
+
+        if ch == "[":
+            end = song.find("]", i + 1)
+
+            if end == -1:
+                i += 1
+                continue
+
+            chord = "".join(
+                c for c in song[i + 1:end]
+                if is_piano_key(c)
+            )
+
+            if chord:
+                seconds += note_delay
+
+            i = end + 1
+            continue
+
+        if ch == "{":
+            end = song.find("}", i + 1)
+
+            if end == -1:
+                i += 1
+                continue
+
+            seq = "".join(
+                c for c in song[i + 1:end]
+                if is_piano_key(c)
+            )
+
+            if seq:
+                seconds += note_delay
+
+            i = end + 1
+            continue
+
+        if ch == "-":
+            dash_count = 1
+
+            while i + 1 < len(song) and song[i + 1] == "-":
+                dash_count += 1
+                i += 1
+
+            seconds += pause_per_dash * dash_count
+            i += 1
+            continue
+
+        if ch.isspace() or ch == "/":
+            i += 1
+            continue
+
+        if is_piano_key(ch):
+            seconds += note_delay
+
+        i += 1
+
+    return seconds
+
+
+def format_duration(seconds: float) -> str:
+    total_seconds = max(0, round(seconds))
+    minutes, secs = divmod(total_seconds, 60)
+    return f"{minutes:02d}:{secs:02d}"
+
 def play_song(
     song: str,
     note_delay: float,
@@ -310,7 +387,13 @@ def play_song(
     total_steps = count_song_steps(song)
     completed_steps = 0
     next_progress = 10
+    estimated_duration = estimate_song_duration(
+        song,
+        note_delay,
+        pause_per_dash,
+    )
 
+    print(f"Estimeret spilletid: {format_duration(estimated_duration)}")
     print("Fremdrift: 0%")
 
     def add_progress(amount: int = 1):
