@@ -2,6 +2,56 @@ import time
 import json
 import sys
 from pathlib import Path
+VERSION = "1.0.0"
+
+import os
+import re
+import shutil
+import tempfile
+from urllib.request import Request, urlopen
+
+UPDATE_URL = "https://raw.githubusercontent.com/Simonfas/roblox-scripts/main/piano/player.py"
+VERSION_PATTERN = re.compile(r'^VERSION\s*=\s*["\'](\d+\.\d+\.\d+)["\']', re.MULTILINE)
+
+
+def check_for_updates():
+    current_path = Path(__file__).resolve()
+    try:
+        request = Request(UPDATE_URL, headers={"User-Agent": "roblox-scripts-player-updater"})
+        with urlopen(request, timeout=8) as response:
+            remote_bytes = response.read()
+        remote_text = remote_bytes.decode("utf-8")
+        match = VERSION_PATTERN.search(remote_text)
+        if not match:
+            print("[Update] GitHub version not found; skipping update.")
+            return
+        remote_version = match.group(1)
+        current_version = tuple(map(int, VERSION.split(".")))
+        latest_version = tuple(map(int, remote_version.split(".")))
+        if latest_version <= current_version:
+            print(f"[Checked] Player is up to date (v{VERSION}).")
+            return
+        compile(remote_text, str(current_path), "exec")
+        backup_path = current_path.with_suffix(".py.bak")
+        shutil.copy2(current_path, backup_path)
+        temp_path = None
+        try:
+            with tempfile.NamedTemporaryFile(
+                mode="wb", suffix=".py", prefix=".player-update-",
+                dir=current_path.parent, delete=False
+            ) as temporary:
+                temporary.write(remote_bytes)
+                temp_path = Path(temporary.name)
+            os.replace(temp_path, current_path)
+        finally:
+            if temp_path is not None:
+                temp_path.unlink(missing_ok=True)
+        print(f"[Update] Updated player.py from v{VERSION} to v{remote_version}. Restarting...", flush=True)
+        os.execv(sys.executable, [sys.executable, str(current_path), *sys.argv[1:]])
+    except Exception as exc:
+        print(f"[Update] Could not check or install update: {exc}")
+        print("[Update] Continuing with installed version.")
+
 
 import win32gui
 from pynput.keyboard import Controller, Listener, Key
@@ -782,4 +832,5 @@ def main():
 
 
 if __name__ == "__main__":
+    check_for_updates()
     main()
